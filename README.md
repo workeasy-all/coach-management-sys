@@ -1,2 +1,2 @@
 # coach-management-sys
-Coaching-Management-Systems 
+Coaching-Management-Systems | Tuition Management System 
