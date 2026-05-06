@@ -1,0 +1,36 @@
+coaching-management/
+├── backend/
+│   ├── package.json
+│   ├── server.js
+│   ├── db.js
+│   ├── middleware/
+│   │   └── auth.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── admin.js
+│   │   ├── teacher.js
+│   │   ├── parent.js
+│   │   └── student.js
+│   └── .env
+├── frontend/
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── App.js
+│   │   ├── context/
+│   │   │   └── AuthContext.js
+│   │   ├── components/
+│   │   │   ├── Login.js
+│   │   │   ├── Navbar.js
+│   │   │   └── ProtectedRoute.js
+│   │   ├── pages/
+│   │   │   ├── AdminDashboard.js
+│   │   │   ├── TeacherDashboard.js
+│   │   │   ├── ParentDashboard.js
+│   │   │   ├── StudentDashboard.js
+│   │   │   └── ... (other management pages)
+│   │   └── styles.css
+│   └── .env
+└── db_init.sql
